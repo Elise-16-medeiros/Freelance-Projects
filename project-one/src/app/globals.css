@@ -3,12 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #eee5dd;
   --foreground: #171717;
   --brown-color: #be9a82;
   --herbal-color: #2e8b57;
 }
-
 
 body {
   color: var(--foreground);
@@ -19,5 +18,22 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  
+}
+
+@layer components {
+  .link,
+  .linkMobile {
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .link:hover {
+    color: var(--brown-color);
+  }
+
+  .linkMobile:hover{
+    color: var(--background);
   }
 }
