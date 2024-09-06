@@ -3,6 +3,7 @@ import { Hind, Montserrat } from "next/font/google"
 import Favicon from "@/public/favicon.ico";
 import "./globals.css";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 const hind = Hind({
   subsets:["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
