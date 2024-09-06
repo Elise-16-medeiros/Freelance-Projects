@@ -1,34 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  --background: #fff; /* #E4D4C7 */;
+  --background: #ffffff;
   --foreground: #171717;
-  --primary: #be9a82; /* marrom */
-  --secundary: #2e8b57; /* herbal */
+  --brown-color: #be9a82;
+  --herbal-color: #2e8b57;
 }
 
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-body);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }
-
-h1,
-h2,
-h3 {
-  font-family: var(--font-title);
-}
-
