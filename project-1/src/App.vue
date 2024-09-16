@@ -1,11 +1,11 @@
 <script setup>
-import DesktopNavbar from "./components/DesktopNavbar.vue";
+import Navbar from "./components/Navbar.vue";
 </script>
 
 <template>
-	<header>
-		<DesktopNavbar />
-	</header>
+  <header>
+    <Navbar />
+  </header>
 </template>
 
 <style scoped></style>
