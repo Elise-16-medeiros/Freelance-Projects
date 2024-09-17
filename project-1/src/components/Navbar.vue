@@ -71,10 +71,10 @@ export default {
       isOpen: false,
       links: [
         { text: "Home", href: "#" },
-        { text: "Features", href: "#" },
-        { text: "Pricing", href: "#" },
-        { text: "About", href: "#" },
-        { text: "Contact", href: "#" },
+        { text: "Sobre", href: "#" },
+        { text: "Massagens", href: "#" },
+        { text: "Detox", href: "#" },
+        { text: "Contato", href: "#" },
       ],
     };
   },
