@@ -16,3 +16,11 @@ body {
     color: #020617;
 }
 
+.bg-image {
+    background-image: url("../app/_assets/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    
+}
